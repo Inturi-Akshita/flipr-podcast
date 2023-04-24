@@ -106,7 +106,7 @@ app.get("/musicSubmit", (req, res) => {
   res.render("music", {link : link});
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
