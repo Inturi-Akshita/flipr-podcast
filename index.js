@@ -29,7 +29,7 @@ app.use(express.static("public"));
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 app.get("/", (req, res) => {
-  res.render("welcome.ejs");
+  res.render("welcome");
 });
 
 app.get("/login", (req, res) => {
